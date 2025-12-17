@@ -30,9 +30,9 @@
         <div>
           <div class="archive__intro">
             <p>
-              This archive contains video clips, art and pictures related to
-              Korty and her work, respective owners of each piece of work have
-              been credited. Contact us for content removal
+              A collection of Munchi's culinary masterpieces and food photography.
+              Each dish tells a story of passion, creativity, and dedication to the
+              art of cooking. All images are original works by Munchi.
             </p>
 
             <button class="credits-link show-mobile" @click="openModal">
@@ -44,7 +44,7 @@
             </button>
 
             <h1>
-              “I try not to do everything, but I make sure I try everything.”
+              "Cooking is an art, but all art requires knowing something about the techniques and materials."
             </h1>
             <nuxt-link to="/" class="home-link">
               <animated-link class="c-bezier">
@@ -67,7 +67,9 @@
                   data-scroll-speed="-0.8"
                   class="bg-image"
                   style="
-                  background-image: url(https://res.cloudinary.com/dajnn3jbw/image/upload/v1696250874/korty/ko8xd4pf334wwcrzdjit.jpg);
+                  background-image: url(https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340486/PHOTO-2025-11-16-20-41-59_rutlks.jpg);
+                  background-position: center;
+                  background-size: cover;
                 "
                 />
               </div>
@@ -78,7 +80,9 @@
                   data-scroll-speed="-0.8"
                   class="bg-image"
                   style="
-                  background-image: url(https://res.cloudinary.com/dajnn3jbw/image/upload/v1696250641/korty/zyigshims03meovean0b.jpg);
+                  background-image: url(https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340475/PHOTO-2025-11-16-20-41-59_cxbx6h.jpg);
+                  background-position: center;
+                  background-size: cover;
                 "
                 />
               </div>
@@ -89,7 +93,9 @@
                   data-scroll-speed="-0.8"
                   class="bg-image"
                   style="
-                  background-image: url(https://res.cloudinary.com/dajnn3jbw/image/upload/v1696250605/korty/frkl3swsh465sobyqdkf.jpg);
+                  background-image: url(https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340473/PHOTO-2025-11-16-20-41-59_iuiqwd.jpg);
+                  background-position: center;
+                  background-size: cover;
                 "
                 />
               </div>
@@ -100,7 +106,9 @@
                   data-scroll-speed="-0.8"
                   class="bg-image"
                   style="
-                  background-image: url(https://res.cloudinary.com/dajnn3jbw/image/upload/v1696250548/korty/vvodmu2csuxdwoqjszbs.jpg);
+                  background-image: url(https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340471/PHOTO-2025-11-16-20-41-59_w4zjg3.jpg);
+                  background-position: center;
+                  background-size: cover;
                 "
                 />
               </div>
@@ -111,7 +119,9 @@
                   data-scroll-speed="-0.8"
                   class="bg-image"
                   style="
-                  background-image: url(https://res.cloudinary.com/dajnn3jbw/image/upload/v1696250572/korty/fbck0yitxhfxhat6dofb.jpg);
+                  background-image: url(https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340463/PHOTO-2025-11-16-20-41-59_eowigs.jpg);
+                  background-position: center;
+                  background-size: cover;
                 "
                 />
               </div>
@@ -122,7 +132,9 @@
                   data-scroll-speed="-0.8"
                   class="bg-image"
                   style="
-                  background-image: url(https://res.cloudinary.com/dajnn3jbw/image/upload/v1696250580/korty/xbiqb6do33ht0c6zsm0o.jpg);
+                  background-image: url(https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340460/PHOTO-2025-11-16-20-41-59_urrw6j.jpg);
+                  background-position: center;
+                  background-size: cover;
                 "
                 />
               </div>
@@ -133,7 +145,9 @@
                   data-scroll-speed="-0.8"
                   class="bg-image"
                   style="
-                  background-image: url(https://res.cloudinary.com/dajnn3jbw/image/upload/v1696250549/korty/rdyxbph6rl0jlpv83y6t.jpg);
+                  background-image: url(https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340439/PHOTO-2025-11-16-20-41-59_ovxdwp.jpg);
+                  background-position: center;
+                  background-size: cover;
                 "
                 />
               </div>
@@ -144,7 +158,9 @@
                   data-scroll-speed="-0.8"
                   class="bg-image"
                   style="
-                  background-image: url(https://res.cloudinary.com/dajnn3jbw/image/upload/v1696250621/korty/qwagme8ziec2egbqfsjx.jpg);
+                  background-image: url(https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340435/PHOTO-2025-11-16-20-41-59_q0rxjr.jpg);
+                  background-position: center;
+                  background-size: cover;
                 "
                 />
               </div>
@@ -155,7 +171,9 @@
                   data-scroll-speed="-0.8"
                   class="bg-image"
                   style="
-                  background-image: url(https://res.cloudinary.com/dajnn3jbw/image/upload/v1696250620/korty/rgwnerfedx3r4baeckxq.jpg);
+                  background-image: url(https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340434/PHOTO-2025-11-16-20-41-59_k7l18a.jpg);
+                  background-position: center;
+                  background-size: cover;
                 "
                 />
               </div>
@@ -166,7 +184,9 @@
                   data-scroll-speed="-0.8"
                   class="bg-image"
                   style="
-                  background-image: url(https://res.cloudinary.com/dajnn3jbw/image/upload/v1696250612/korty/v4knulpxoghw9ky5el5g.jpg);
+                  background-image: url(https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340433/PHOTO-2025-11-16-20-41-59_rtljqm.jpg);
+                  background-position: center;
+                  background-size: cover;
                 "
                 />
               </div>
@@ -177,7 +197,9 @@
                   data-scroll-speed="-0.8"
                   class="bg-image"
                   style="
-                  background-image: url(https://res.cloudinary.com/dajnn3jbw/image/upload/v1696250611/korty/p7jysavl6z1wqbtydmir.jpg);
+                  background-image: url(https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340427/PHOTO-2025-11-16-20-41-59_rkgtdr.jpg);
+                  background-position: center;
+                  background-size: cover;
                 "
                 />
               </div>
@@ -188,7 +210,9 @@
                   data-scroll-speed="-0.8"
                   class="bg-image"
                   style="
-                  background-image: url(https://res.cloudinary.com/dajnn3jbw/image/upload/v1696250610/korty/xrvpeb3koa1sqi7nwtvg.jpg);
+                  background-image: url(https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340426/PHOTO-2025-11-16-20-41-58_zi4dlw.jpg);
+                  background-position: center;
+                  background-size: cover;
                 "
                 />
               </div>
@@ -199,7 +223,9 @@
                   data-scroll-speed="-0.8"
                   class="bg-image"
                   style="
-                  background-image: url(https://res.cloudinary.com/dajnn3jbw/image/upload/v1696250552/korty/zk2n4bwb5kxagdpmndcj.jpg);
+                  background-image: url(https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340425/PHOTO-2025-11-16-20-41-58_gzi0fb.jpg);
+                  background-position: center;
+                  background-size: cover;
                 "
                 />
               </div>
@@ -210,7 +236,9 @@
                   data-scroll-speed="-0.8"
                   class="bg-image"
                   style="
-                  background-image: url(https://res.cloudinary.com/dajnn3jbw/image/upload/v1696250555/korty/gtauwwfb3pirvlyvywgo.jpg);
+                  background-image: url(https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340413/PHOTO-2025-11-16-20-41-58_q4u9yq.jpg);
+                  background-position: center;
+                  background-size: cover;
                 "
                 />
               </div>
@@ -221,7 +249,9 @@
                   data-scroll-speed="-0.8"
                   class="bg-image"
                   style="
-                  background-image: url(https://res.cloudinary.com/dajnn3jbw/image/upload/v1696250624/korty/l7xaa9wb7qjsh0sb1otx.jpg);
+                  background-image: url(https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340411/PHOTO-2025-11-16-20-41-58_cys02p.jpg);
+                  background-position: center;
+                  background-size: cover;
                 "
                 />
               </div>
@@ -232,7 +262,9 @@
                   data-scroll-speed="-0.8"
                   class="bg-image"
                   style="
-                  background-image: url(https://res.cloudinary.com/dajnn3jbw/image/upload/v1696250619/korty/sky99o8xzvlwut6pa7pr.jpg);
+                  background-image: url(https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340404/PHOTO-2025-11-16-20-41-58_sw0i5d.jpg);
+                  background-position: center;
+                  background-size: cover;
                 "
                 />
               </div>
@@ -243,7 +275,9 @@
                   data-scroll-speed="-0.8"
                   class="bg-image"
                   style="
-                  background-image: url(https://res.cloudinary.com/dajnn3jbw/image/upload/v1696250618/korty/ycehgcqluxpjmpr3hhk8.jpg);
+                  background-image: url(https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340403/PHOTO-2025-11-16-20-41-58_ndkq1y.jpg);
+                  background-position: center;
+                  background-size: cover;
                 "
                 />
               </div>
@@ -254,7 +288,9 @@
                   data-scroll-speed="-0.8"
                   class="bg-image"
                   style="
-                  background-image: url(https://res.cloudinary.com/dajnn3jbw/image/upload/v1696250617/korty/pdndwoxtlcyyhr5ts79n.jpg);
+                  background-image: url(https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340402/PHOTO-2025-11-16-20-41-58_pe4y8v.jpg);
+                  background-position: center;
+                  background-size: cover;
                 "
                 />
               </div>
@@ -265,7 +301,9 @@
                   data-scroll-speed="-0.8"
                   class="bg-image"
                   style="
-                  background-image: url(https://res.cloudinary.com/dajnn3jbw/image/upload/v1696250608/korty/lwtaaodl6kb7nojxn4re.jpg);
+                  background-image: url(https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340400/PHOTO-2025-11-16-20-41-58_sw0i5d.jpg);
+                  background-position: center;
+                  background-size: cover;
                 "
                 />
               </div>
@@ -276,7 +314,9 @@
                   data-scroll-speed="-0.8"
                   class="bg-image"
                   style="
-                  background-image: url(https://res.cloudinary.com/dajnn3jbw/image/upload/v1696250608/korty/qnvzbjt64tzhiroagylr.jpg);
+                  background-image: url(https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340399/PHOTO-2025-11-16-20-41-57_sw0i5d.jpg);
+                  background-position: center;
+                  background-size: cover;
                 "
                 />
               </div>
@@ -287,124 +327,9 @@
                   data-scroll-speed="-0.8"
                   class="bg-image"
                   style="
-                  background-image: url(https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1621921702/Korty/Rectangle_52_r0cnkm.jpg); // TODO HELLP
-                "
-                />
-              </div>
-
-              <div class="c-image xs">
-                <div
-                  data-scroll
-                  data-scroll-speed="-0.8"
-                  class="bg-image"
-                  style="
-                  background-image: url(https://res.cloudinary.com/dajnn3jbw/image/upload/v1696250623/korty/ogvtssmubthiot9me58j.jpg);
-                "
-                />
-              </div>
-
-              <div class="c-image xs">
-                <div
-                  data-scroll
-                  data-scroll-speed="-0.8"
-                  class="bg-image"
-                  style="
-                  background-image: url(https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1621921770/Korty/Rectangle_54_r0rsvh.jpg);
-                "
-                />
-              </div>
-
-              <!-- Copy Image -->
-
-              <div class="c-image md">
-                <div
-                  data-scroll
-                  data-scroll-speed="-0.8"
-                  class="bg-image"
-                  style="
-                  background-image: url(https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1621921773/Korty/Rectangle_57_twgrjb.jpg);
-                "
-                />
-              </div>
-
-              <div class="c-image xs">
-                <div
-                  data-scroll
-                  data-scroll-speed="-0.8"
-                  class="bg-image"
-                  style="
-                  background-image: url(https://res.cloudinary.com/dajnn3jbw/image/upload/v1696560115/korty/rxers5olp3we3yh2yzck.jpg);
-                "
-                />
-              </div>
-
-              <div class="c-image xs">
-                <div
-                  data-scroll
-                  data-scroll-speed="-0.8"
-                  class="bg-image"
-                  style="
-                  background-image: url(https://res.cloudinary.com/dajnn3jbw/image/upload/v1696560116/korty/d0ysosg9hgmb1hrzcsm0.jpg);
-                "
-                />
-              </div>
-
-              <div class="c-image xs">
-                <div
-                  data-scroll
-                  data-scroll-speed="-0.8"
-                  class="bg-image"
-                  style="
-                  background-image: url(https://res.cloudinary.com/dajnn3jbw/image/upload/v1696377669/korty/reahi3hvaev3j71gn9lo.jpg);
-                "
-                />
-              </div>
-
-              <div class="c-image xs">
-                <div
-                  data-scroll
-                  data-scroll-speed="-0.8"
-                  class="bg-image"
-                  style="
-                  background-image: url(https://res.cloudinary.com/dajnn3jbw/image/upload/v1696560115/korty/an8gxis3y5nfblz5nil4.jpg);
-                "
-                />
-              </div>
-
-              <div class="c-image xs">
-                <div
-                  data-scroll
-                  data-scroll-speed="-0.8"
-                  class="bg-image"
-                  style="
-                  background-image: url(https://res.cloudinary.com/dajnn3jbw/image/upload/v1696560116/korty/w7bbpooogjmp7npv1plj.jpg);
-                "
-                />
-              </div>
-
-              <div class="c-image md nobp">
-                <div
-                  data-scroll
-                  data-scroll-speed="-0.8"
-                  class="bg-image"
-                  style="
-                  background-image: url(https://res.cloudinary.com/dajnn3jbw/image/upload/v1696560116/korty/g22qniwdff8evwcii6ma.jpg);
-                "
-                />
-              </div>
-
-              <div class="c-circle">
-                <div class="c-circle__inner">
-                  <div class="heading">
-                    <h3>
-                      the <br />
-                      End
-                    </h3>
-                  </div>
-
-                  <nuxt-link to="/" class="home-link">
-                    <animated-link class="c-bezier"> Go to Home </animated-link>
-                  </nuxt-link>
+                    background-image: url(https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340397/PHOTO-2025-11-16-20-41-57_sw0i5d.jpg);
+                    background-position: center;
+                    background-size: cover;">
                 </div>
               </div>
 
@@ -414,7 +339,48 @@
                   data-scroll-speed="-0.8"
                   class="bg-image"
                   style="
-                  background-image: url(https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1621921814/Korty/Rectangle_64_v1mfrj.jpg);
+                  background-image: url(https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340396/PHOTO-2025-11-16-20-41-57_sw0i5d.jpg);
+                  background-position: center;
+                  background-size: cover;
+                "
+                />
+              </div>
+
+              <div class="c-image md">
+                <div
+                  data-scroll
+                  data-scroll-speed="-0.8"
+                  class="bg-image"
+                  style="
+                  background-image: url(https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340395/PHOTO-2025-11-16-20-41-57_sw0i5d.jpg);
+                  background-position: center;
+                  background-size: cover;
+                "
+                />
+              </div>
+
+              <div class="c-image xs">
+                <div
+                  data-scroll
+                  data-scroll-speed="-0.8"
+                  class="bg-image"
+                  style="
+                  background-image: url(https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340394/PHOTO-2025-11-16-20-41-57_sw0i5d.jpg);
+                  background-position: center;
+                  background-size: cover;
+                "
+                />
+              </div>
+
+              <div class="c-image xs">
+                <div
+                  data-scroll
+                  data-scroll-speed="-0.8"
+                  class="bg-image"
+                  style="
+                  background-image: url(https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340393/PHOTO-2025-11-16-20-41-57_sw0i5d.jpg);
+                  background-position: center;
+                  background-size: cover;
                 "
                 />
               </div>

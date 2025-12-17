@@ -1,8 +1,8 @@
 <template>
   <div class="c-exit">
     <h1 class="ov-h">
-      <span class="exit-span">E</span>
-      <span class="fraunces exit-span">O</span>
+      <span class="exit-span">Chef.</span>
+      <span class="fraunces exit-span">M</span>
     </h1>
   </div>
 </template>

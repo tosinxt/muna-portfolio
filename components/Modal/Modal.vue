@@ -17,58 +17,23 @@
         <div class="main__top sect">
           <div class="left">
             <h1>
-              WHO MADE THIS SITE?
+              WEBSITE CREDITS
             </h1>
-              <p>
-                <a
-                  href="https://twitter.com/ibrahimraimi_"
-                  target="__blank"
-                  style="text-decoration: underline;"
-                  >Ibrahim</a
-                >
-                - Development 2024 Rebuild
-              </p>
             <p>
               <a
-                href="https://twitter.com/seyi__xo"
+                href="https://x.com/tosinxt"
                 target="__blank"
                 style="text-decoration: underline;"
-                >Seyi</a
+                >Oluwatosin Alli</a
               >
-              - Development and Art Direction
-            </p>
-            <p>
-              <a
-                href="https://twitter.com/isaacfayemi_"
-                target="__blank"
-                style="text-decoration: underline;"
-                >Isaac</a
-              >
-              - UI Design and Art Direction
-            </p>
-            <p>
-              <a
-                href="https://twitter.com/heyFaash"
-                target="__blank"
-                style="text-decoration: underline;"
-                >Femi</a
-              >
-              - Motion & Interaction Design
-            </p>
-            <p>
-              Special thanks to
-              <a
-                href="https://twitter.com/sebiomo_"
-                target="__blank"
-                style="text-decoration: underline;"
-                >Sebiomo</a
-              >
+              - Senior Developer
             </p>
           </div>
           <div class="right">
             <img
               src="https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1621921773/Korty/Rectangle_57_twgrjb.jpg"
-              alt=""
+              alt="Munchi - Personal Chef & Culinary Artist"
+              style="max-width: 100%; height: auto;"
             />
           </div>
         </div>
@@ -81,19 +46,14 @@
               Type for this website was set in Fraunces and HK Grotesk
             </p>
             <div class="left-footer">
-              <p>A fansite for Korty EO</p>
-              <p>© 2024</p>
+              <p>© 2025 Munchi. All rights reserved.</p>
             </div>
           </div>
           <div class="right">
-            <h1>WE USED WORKS FROM:</h1>
+            <h1>ABOUT THIS SITE</h1>
             <p>
-              milekethephotographer, umithedolphin, korty_eo, TG Omori, Zikoko,
-              Empawa, Keex, BUST Magazine, TheSpark, jag_ubani and Pamane.
+              A showcase of Munchi's culinary journey and creations.
             </p>
-            <a href="/">
-              Request content removal
-            </a>
           </div>
         </div>
 

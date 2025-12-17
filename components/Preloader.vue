@@ -40,8 +40,8 @@
         </div>
       </div>
       <h2 class="c-preloader__footer">
-        KORTY <br />
-        ENIOLA
+        MUNACHI <br />
+        UDENGWU
       </h2>
     </div>
   </div>
@@ -54,9 +54,11 @@ export default {
   data() {
     return {
       toBePreloaded: [
-        "https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1621171243/Korty/Rectangle_15_anvqaw.jpg",
-        "https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1620936288/Korty/image_5_pgl6zc.jpg",
-        "https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1620697813/Korty/image_2_gijibv.jpg",
+        // Placeholder for Munachi's culinary images
+        // Replace these with actual image URLs of Munachi's dishes
+        "https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340475/PHOTO-2025-11-16-20-41-59_cxbx6h.jpg",
+        "https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340471/PHOTO-2025-11-16-20-41-59_w4zjg3.jpg",
+        "https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340435/PHOTO-2025-11-16-20-41-59_q0rxjr.jpg",
         "https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1620697813/Korty/image_20_bufuoi.jpg",
         "https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1620865175/Korty/Rectangle_11_tuj1nt.jpg",
         "https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1621239276/Korty/image_33_1_pmbu2v.jpg",
@@ -75,7 +77,8 @@ export default {
         "https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1621568117/Korty/Rectangle_23_dxgpdz.jpg",
       ],
       otherstoPreload: [
-        "https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1621637709/Korty/korty-archive-1_kjvsf4.jpg",
+        // Additional culinary images
+        "https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340366/PHOTO-2025-11-16-20-41-57_vwohnm.jpg",
         "https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1621921592/Korty/Rectangle_34_faqgls.jpg",
         "https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1621921685/Korty/Rectangle_34-1_firxdx.jpg",
         "https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1621921602/Korty/Rectangle_36_lj8azl.jpg",

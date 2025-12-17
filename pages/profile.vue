@@ -20,9 +20,14 @@
               Close
             </AnimatedLink>
           </nuxt-link>
-          <nuxt-link to="/archive">
+          <nuxt-link to="/gallery">
             <AnimatedLink class="c-bezier">
-              Archive
+              Gallery
+            </AnimatedLink>
+          </nuxt-link>
+          <nuxt-link to="/menu">
+            <AnimatedLink class="c-bezier">
+              Menu
             </AnimatedLink>
           </nuxt-link>
         </div>
@@ -30,61 +35,51 @@
         <div class="c-profile__hero">
           <div class="hero__image">
             <img
-              src="https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1620936288/Korty/image_5_pgl6zc.jpg"
-              alt=""
+              src="https://res.cloudinary.com/dnf1unqkp/image/upload/v1763475474/PHOTO-2025-11-18-10-36-34_ttzogs.jpg"
+              alt="Munchi - Personal Chef & Culinary Artist"
               data-scroll-speed="1"
+              style="width: 100%; height: 100%; object-fit: cover;"
             />
           </div>
           <div class="hero-content">
             <h1 class="hero-content__title span-overflow">
               <span class="ov-inner">
-                K<span class="fraunces">o</span>rty e<span class="fraunces"
-                  >o.</span
-                >
+                M<span class="fraunces">u</span>nachi <span class="fraunces">U.</span>
               </span>
             </h1>
             <div class="hero-content__caption">
-              <p>Korty EO.</p>
-              <p>January 23, 2021</p>
-              <p>by @jag_ubani</p>
+              <p>Chef Muna</p>
+              <p>Culinary Artist & Visual Storyteller</p>
+              <p>Creating unforgettable experiences through food and imagery</p>
             </div>
           </div>
         </div>
 
         <div class="c-profile__headline">
           <h2 class="headline__text">
-            <span>Eniola <span class="fraunces">Korty</span> Olanrewaju</span>
-            <span>Eniola <span class="fraunces">Korty</span> Olanrewaju</span>
-            <span>Eniola <span class="fraunces">Korty</span> Olanrewaju</span>
+            <span>Chef <span class="fraunces">&</span> Creative Director</span>
+            <span>Food <span class="fraunces">&</span> Visual Storyteller</span>
+            <span>Culinary <span class="fraunces">&</span> Content Creator</span>
           </h2>
         </div>
         <div class="c-profile__intro">
           <div class="intro__image">
             <img
-              src="https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1621171243/Korty/Rectangle_15_anvqaw.jpg"
-              alt=""
+              src="/images/munachi/PHOTO-2025-11-16-20-41-59(7).jpg"
+              alt="Chef Muna - Signature Dish"
             />
             <p class="c-caption">
-              Korty EO. &nbsp; <span>December 19, 2020</span>
+              Chef Muna &nbsp; <span>Woman of God</span>
             </p>
           </div>
           <div class="intro__text">
             <div class="inner">
-              <h2>is a Lagos based freelance filmmaker & youtuber</h2>
+              <h2>is a culinary artist with an eye for visual storytelling</h2>
               <p class="para-1">
-                —in love with music and stories. On her youtube channel; she
-                makes interviews, vlogs, and other experimental videos. She has
-                previously worked at some of the best content studios in West
-                Africa.
+                —blending the art of cooking with the power of visual media. With years of experience in professional kitchens and behind the lens, Muna creates immersive culinary experiences that engage all senses.
               </p>
               <p>
-                Eniola Korty, you may know her online as Korty Eo, leaves no
-                room for error when it comes to creating. Korty has an
-                impressive resume, as she credits being a graphic designer,
-                model, artist, filmmaker, and now YouTuber. Her honest and frank
-                storytelling, combined with her engaging and beautiful B-roll
-                shots of her hometown, make for an engaging and captivating
-                channel.
+                As both a chef and visual storyteller, Muna brings a unique perspective to food media. Her background in professional cooking, combined with her skills in photography and videography, allows her to create content that not only tastes incredible but tells a compelling story. Specializing in [specific cuisines], she has worked with [notable clients/publications] to create stunning visual content that celebrates food culture.
               </p>
             </div>
           </div>
@@ -92,31 +87,21 @@
         <div class="c-profile__editorial">
           <div class="editorial__image">
             <p class="c-caption">
-              Korty EO. & TG OMORI &nbsp; <span>April 10, 2021</span>
+              Culinary & Visual Portfolio &nbsp; <span>2025</span>
             </p>
           </div>
           <div class="editorial__content first">
             <div class="left">
               <h2>
-                “The inspiration behind my art is life itself. I like to take
-                pictures as a hobby because I’m fascinated by nature and
-                travelling. Converting these pictures into art is like breathing
-                life into something. The thought of this alone encourages me.”
+                "Food is my first love, but storytelling through visuals is what completes the experience. Every dish has a story, and through my lens, I aim to capture not just how food looks, but how it makes us feel. The sizzle, the steam, the textures – these are the elements that bring culinary stories to life."”
               </h2>
               <p class="c-caption">
-                – Korty EO. &nbsp; <span>March 16, 2018</span>
+                – Munchi &nbsp; <span>November 18, 2025</span>
               </p>
             </div>
             <div class="right">
               <p>
-                Korty left her family home in Ibadan for Lagos after getting an
-                offer to become a writer at a newly formed media company,
-                Zikoko. Work was going well, until she got bored and literally
-                said “fuck shit, I want to make videos”. She is mostly self
-                taught, it definitely didn’t hurt to have unlimited access to
-                the internet. She had a little more creative freedom when she
-                finally left for her own apartment after living with relatives
-                for a year.
+                Munchi discovered her passion for culinary arts at an early age, inspired by the rich flavors and traditions of Nigerian cuisine. After honing her skills in professional kitchens across Lagos, she decided to combine her love for food with her creative vision. What started as a personal journey of culinary exploration quickly evolved into a professional career as a personal chef and culinary artist.
               </p>
             </div>
           </div>
@@ -133,8 +118,9 @@
             <div class="right">
               <div class="image">
                 <img
-                  src="https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1621285427/Korty/Rectangle_17_ve1u5y.jpg"
-                  alt=""
+                  src="https://res.cloudinary.com/dnf1unqkp/image/upload/v1763472453/PHOTO-2025-11-16-20-41-59_tafemr-removebg-preview_yyyjep.png"
+                  alt="Munchi - Culinary Artist"
+                  style="width: 100%; height: 100%; object-fit: cover;"
                 />
               </div>
             </div>
@@ -148,22 +134,21 @@
                 <div class="image-con">
                   <div class="intro__image">
                     <img
-                      src="https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1621690413/Korty/korty-work_ukm6yk.jpg"
-                      alt=""
+                      src="https://res.cloudinary.com/dnf1unqkp/image/upload/v1763472453/PHOTO-2025-11-16-20-41-59_tafemr-removebg-preview_yyyjep.png"
+                      alt="Munchi - Personal Chef"
+                      style="width: 100%; height: 100%; object-fit: cover;"
                     />
                   </div>
                   <p class="c-caption">
-                    Korty EO. &nbsp;
-                    <span>March 23, 2021 &nbsp; by @umithedolphin</span>
+                    Munchi &nbsp;
+                    <span>November 18, 2025</span>
                   </p>
                 </div>
 
                 <div class="intro__desc">
                   <h1>W<span class="fraunces">O</span>RK</h1>
                   <p class="first-para">
-                    Korty Eniola has worked accross fashion, entertainment and
-                    media industries as a writer, editor, visual desiger, model,
-                    content producer and now filmmaker.
+                    Munchi has worked across the culinary world, from high-end restaurants to private dining experiences, bringing her unique fusion of traditional Nigerian flavors with contemporary techniques to every dish she creates.
                   </p>
                   <div class="intro__cta">
                     <button class="cta-button">
@@ -180,29 +165,28 @@
               <div class="nike-gt">
                 <div class="nike">
                   <div class="nike__left">
-                    <h2>NIKE</h2>
+                    <h2>FLAVOR FUSION</h2>
                     <div class="nike__image1">
                       <img
-                        src="https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1621406261/Korty/Rectangle_19_o44i0q.jpg"
-                        alt="air max 200's"
+                        src="/images/munachi/PHOTO-2025-11-16-20-41-59(8).jpg"
+                        alt="Flavor Fusion culinary event"
                         class="skew-image"
                       />
                     </div>
                     <animated-arrow
-                      href="https://kortyeo.com/partner/nike-just-gbese"
+                      href="#"
                     />
                   </div>
                   <div class="nike__right">
                     <div class="nike__image2">
                       <img
-                        src="https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1621406261/Korty/Rectangle_20_hkfszk.jpg"
-                        alt="air max 200's"
+                        src="/images/munachi/PHOTO-2025-11-16-20-41-59(6).jpg"
+                        alt="Culinary workshop presentation"
                         class="skew-image"
                       />
                     </div>
                     <p>
-                      Collaboration with Peter Johnson for his custom Air Max
-                      200s “Balance Diet”.
+                      Signature culinary event series blending traditional African flavors with modern techniques.
                     </p>
                   </div>
                 </div>
@@ -210,13 +194,13 @@
                   <div>
                     <div class="gt__image">
                       <img
-                        src="https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1621406260/Korty/Rectangle_21_itahct.jpg"
-                        alt="GTBank logo"
+                        src="/images/munachi/PHOTO-2025-11-16-20-41-59(7).jpg"
+                        alt="Food photography work"
                       />
                     </div>
                     <div class="gt__desc">
-                      <h3>GTBANK</h3>
-                      <p>Winning project pitch video for GTBank headquarters</p>
+                      <h3>FOOD PHOTOGRAPHY</h3>
+                      <p>Capturing the art of cuisine through creative photography</p>
                     </div>
                   </div>
                 </div>
@@ -225,46 +209,45 @@
               <div class="empawa">
                 <div class="empawa__image">
                   <img
-                    src="https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1621443387/Korty/Rectangle_22_zkazsw.jpg"
-                    alt="Oxlade at Empawa"
+                    src="/images/munachi/PHOTO-2025-11-16-20-41-59(5).jpg"
+                    alt="Culinary workshop in progress"
                     class="skew-image"
                   />
                 </div>
                 <div class="empawa__desc">
                   <p>
-                    Worked as a content lead at Empawa Africa, single handedly
-                    directing and producing shows.
+                    Leading culinary workshops that combine cooking techniques with food styling and photography.
                   </p>
-                  <animated-arrow href="https://kortyeo.com/partner/empawa" />
+                  <animated-arrow href="#" />
                 </div>
-                <h1>EMPAWA</h1>
+                <h1>WORKSHOPS</h1>
               </div>
 
               <div class="zikoko-ga">
                 <div class="googlearts">
-                  <h3>GOOGLE ARTS <br />& CULTURE</h3>
+                  <h3>FOOD STYLING <br />& PHOTOGRAPHY</h3>
                   <p>
-                    Worked on production for a documentary on music for Google
-                    Arts and Culture.
+                    Creating visually stunning food presentations that tell a story
+                    and capture the essence of each dish.
                   </p>
                 </div>
                 <div class="zikoko">
                   <div class="zikoko__image">
                     <img
-                      src="https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1621466610/Korty/image_rnnzho.jpg"
-                      alt=""
+                      src="/images/munachi/PHOTO-2025-11-16-20-41-59(4).jpg"
+                      alt="Food styling work"
                       class="skew-image"
                     />
                   </div>
                   <div class="zikoko__desc">
-                    <animated-arrow href="https://kortyeo.com/partner/zikoko" />
+                    <animated-arrow href="#" />
                     <div>
                       <h1>
-                        ZIKOKO
+                        CULINARY MEDIA
                       </h1>
                       <p>
-                        Assistant Video Producer in 2018, promoted to a Video
-                        Producer in 2019
+                        Food styling and photography for restaurants, brands, and
+                        culinary publications
                       </p>
                     </div>
                   </div>
@@ -275,23 +258,23 @@
                     <div class="coachella__disclaimer">
                       <span>*</span>
                       <p>
-                        not directly contracted by coachella
+                        featured in
                       </p>
                     </div>
-                    <h3>2019</h3>
+                    <h3>2024</h3>
                   </div>
                   <h2 class="coachella__title">
-                    COACHELLA
+                    CULINARY ARTS
                   </h2>
                   <div class="coachella__story">
                     <div class="coachella__desc">
                       <p>
-                        A documentation of an experience at the concert by
-                        Nigerian stylist, Mariam Aduke.
+                        Featured in Culinary Arts Magazine for innovative food
+                        presentation techniques
                       </p>
                     </div>
                     <animated-arrow
-                      href="https://kortyeo.com/partner/coachella"
+                      href="#"
                     />
                   </div>
                 </div>
@@ -301,44 +284,44 @@
                 <div class="bbnaija__top">
                   <div class="image-1">
                     <img
-                      src="https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1621524451/Korty/kortybbn1_v31czm.jpg"
-                      alt=""
+                      src="/images/munachi/PHOTO-2025-11-16-20-41-59(3).jpg"
+                      alt="Cooking show set"
                     />
                   </div>
                   <div class="image-2">
                     <img
-                      src="https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1621524466/Korty/kortybbn2_dixrhc.jpg"
-                      alt=""
+                      src="/images/munachi/PHOTO-2025-11-16-20-41-59(2).jpg"
+                      alt="Recipe development session"
                     />
-                    <p>
-                      At Zikoko, Korty produced a series of shows for Big
-                      Brother Naija ‘Pepper Dem’ .
-                    </p>
                   </div>
+                  <p>
+                    Host and creative director of a popular cooking show that combines
+                    culinary expertise with stunning visual storytelling.
+                  </p>
                 </div>
-                <h2>BBNAIJA</h2>
               </div>
               <div class="keexs">
                 <img
-                  src="https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1621540680/Korty/image_43_u9fsmz.jpg"
-                  alt=""
+                  src="/images/munachi/PHOTO-2025-11-16-20-41-59(1).jpg"
+                  alt="Recipe book cover"
                   class="keexs__image skew-image"
                 />
                 <div class="keexs__panel">
                   <h2>
-                    KEEXS
+                    RECIPE BOOK
                   </h2>
                   <p>
-                    Edited a promotional video for Nigerian shoe brand, Keeks.
+                    Authored a best-selling recipe book featuring food photography
+                    and styling by the chef herself.
                   </p>
-                  <animated-arrow href="https://kortyeo.com/partner/keeks" />
+                  <animated-arrow href="#" />
                 </div>
               </div>
               <div class="pamane">
                 <div class="pamane__left">
                   <img
-                    src="https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1621541975/Korty/korty-pamane_glwvwh.jpg"
-                    alt=""
+                    src="/images/munachi/PHOTO-2025-11-16-20-41-57.jpg"
+                    alt="Culinary brand collaboration"
                     class="skew-image"
                   />
                 </div>
@@ -346,20 +329,20 @@
                   <div class="pamane__top">
                     <div class="pamane__image">
                       <img
-                        src="https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1621542856/Korty/153576857_480678352950294_7236937184248464472_n_3_ktb05h.jpg"
-                        alt=""
+                        src="/images/munachi/PHOTO-2025-11-16-20-41-58(1).jpg"
+                        alt="Social media content creation"
                       />
                     </div>
                     <div class="pamane__desc">
-                      <animated-arrow href="https://www.wearpamane.com/" />
+                      <animated-arrow href="#" />
                       <p>
-                        Photo modelling for the Lagos based clothing brand,
-                        Pamane.
+                        Collaborations with premium kitchenware and food brands
+                        for content creation and product development.
                       </p>
                     </div>
                   </div>
                   <h1>
-                    PAMANE
+                    BRAND COLLABS
                   </h1>
                 </div>
               </div>
@@ -371,8 +354,7 @@
                     href="https://www.youtube.com/channel/UCTFFhYhkLkxjhcCdwUKmQ5g"
                   />
                   <p>
-                    Now, Korty is basically freelancing - making videos for her
-                    youtube channnel, instagram and clients.
+                    Today, Munchi runs her own culinary business, offering private chef services, cooking classes, and food styling for various media productions.
                   </p>
                 </div>
                 <h1>MAKING FILM THE</h1>
@@ -380,8 +362,9 @@
                   <h1>SLOWER WAY,</h1>
                   <div class="row-image">
                     <img
-                      src="https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1621568117/Korty/Rectangle_23_dxgpdz.jpg"
-                      alt=""
+                      src="https://res.cloudinary.com/dnf1unqkp/image/upload/v1763472276/PHOTO-2025-11-16-20-41-56_mk8yv4-removebg-preview_cp5ryy.png"
+                      alt="Munchi's Signature Dish"
+                      style="width: 100%; height: 100%; object-fit: cover;"
                     />
                   </div>
                 </div>
@@ -391,11 +374,12 @@
           </div>
 
           <div class="c-profile__work--mobile show-tablet">
-            <h1 class="first-heading">W<span class="fraunces">O</span>RK</h1>
+            <h1 class="first-heading">M<span class="fraunces">Y</span> WORK</h1>
             <p class="first-para">
-              Korty Eniola has worked accross fashion, entertainment and media
-              industries as a writer, editor, visual desiger, model, content
-              producer and now filmmaker.
+              Chef Muna has worked across top restaurants and media houses,
+              mastering both culinary arts and visual storytelling. Her unique approach
+              combines traditional cooking techniques with modern visual media to create
+              compelling food narratives that engage and inspire.
             </p>
             <div class="intro__image">
               <div />
@@ -423,8 +407,9 @@
 
             <div class="work__quote">
               <img
-                src="https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1621568117/Korty/Rectangle_23_dxgpdz.jpg"
-                alt=""
+                src="https://res.cloudinary.com/dnf1unqkp/image/upload/v1763472276/PHOTO-2025-11-16-20-41-56_mk8yv4-removebg-preview_cp5ryy.png"
+                alt="Munchi's Culinary Art"
+                style="width: 100%; height: 100%; object-fit: cover;"
               />
 
               <h1>
@@ -432,8 +417,7 @@
                 <span class="fraunces">Learning</span> BY DOING
               </h1>
               <p>
-                Now, Korty is basically freelancing - making videos for her
-                youtube channnel, instagram and clients.
+                Today, Munchi runs her own culinary business, offering private chef services, cooking classes, and food styling for various media productions.
               </p>
             </div>
           </div>
@@ -450,18 +434,19 @@
                 </div>
               </button>
               <p>
-                Korty EO <br />
+                Munachi Udengwu <br />
                 <a
-                  href="https://madebynull.com"
+                  href="#"
                   target="__blank"
                   style="text-decoration: underline;"
-                  >Made by Null</a
+                  >Culinary & Visual Portfolio</a
                 >
               </p>
               <div class="footer__image">
                 <img
-                  src="https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1621637709/Korty/korty-archive-1_kjvsf4.jpg"
-                  alt=""
+                  src="https://res.cloudinary.com/dnf1unqkp/image/upload/v1763472453/PHOTO-2025-11-16-20-41-59_tafemr-removebg-preview_yyyjep.png"
+                  alt="Munchi - Professional Chef"
+                  style="width: 100%; height: 100%; object-fit: cover;"
                 />
               </div>
             </div>
@@ -486,14 +471,13 @@
                     </a>
                   </div>
                   <p class="c-facebook show-desktop">
-                    If you still use Facebook, we want better for you.
+                    Let's collaborate on your next culinary or media project.
                   </p>
                 </div>
                 <div class="bottom__right">
                   <p>
-                    Have a look at the Credits and support all the awesome
-                    creators whose works were featured, If you still want to
-                    continue the experience, head over to the archive page.
+                    Explore my portfolio to see how culinary art and visual storytelling come together.
+                    For collaborations, events, or media inquiries, please get in touch.
                   </p>
 
                   <button class="credits-link" @click="openModal">
@@ -509,11 +493,11 @@
             <div class="footer__right">
               <nuxt-link class="c-circular-link" to="/archive">
                 <circular-link>
-                  View Korty's Archive
+                  View Munchi's Portfolio
                 </circular-link>
               </nuxt-link>
               <p class="show-mobile">
-                Korty EO by Seyi Oluwadare & Isaac Fayemi
+                Munachi Udengwu - Chef & Creative Director
               </p>
             </div>
           </div>

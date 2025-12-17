@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Korty EO',
+    title: 'Munachi Udengwu | Culinary Artist',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -15,13 +15,13 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Eniola Korty Olanrewaju is a Lagos based freelance filmmaker & youtuber...',
+          'Munachi Udengwu is an innovative chef and culinary artist creating memorable dining experiences through creative cuisine...',
       },
       {
         property: 'og:image',
         hid: 'og:image',
         content:
-          'https://res.cloudinary.com/dmwfd0zhh/image/upload/v1625872208/Korty/A4_-_2_1_lcy5da.jpg',
+          '/images/munachi-og.jpg',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],

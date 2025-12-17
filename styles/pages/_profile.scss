@@ -78,9 +78,18 @@
       &__title {
         text-transform: uppercase;
         @include heading-2;
-        // line-height: 0;
+        color: $col-white; /* Make the main name white */
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add subtle shadow for better visibility */
         text-align: center;
-        transform: translateY(-50%);
+        transform: translateY(0);
+        margin-top: calc(33% - 9cm); /* Moved 4cm higher from previous position */
+        @include media(">tablet") {
+          margin-top: calc(23% - 7.5cm); /* Slightly less offset on larger screens */
+        }
+        
+        .fraunces {
+          color: rgba(255, 255, 255, 0.8); /* Slightly transparent white for the serif parts */
+        }
       }
 
       &__caption {
@@ -88,8 +97,15 @@
         p {
           @include paragraph;
           line-height: 1.7;
+          color: rgba(255, 255, 255, 0.9); /* Light text for better visibility */
+          text-shadow: 0 0 8px rgba(0, 0, 0, 0.5); /* Add shadow for better contrast */
+          
           &:not(:first-of-type) {
-            color: $col-gray;
+            color: rgba(255, 255, 255, 0.7); /* Slightly lighter for non-primary text */
+          }
+          
+          &:first-of-type {
+            font-weight: 500; /* Make the first line slightly bolder */
           }
         }
 
@@ -219,7 +235,7 @@
       &__image {
         height: 300px;
         width: 100%;
-        background: url("https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1621239276/Korty/image_33_1_pmbu2v.jpg");
+        background: url("https://res.cloudinary.com/dnf1unqkp/image/upload/v1763475474/PHOTO-2025-11-18-10-36-34_mqtniz.jpg");
         background-size: cover;
         background-position: 80% 20%;
 

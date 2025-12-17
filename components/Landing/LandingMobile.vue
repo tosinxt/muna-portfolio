@@ -4,38 +4,45 @@
     :getted-options="{
       offset: ['30%', 0],
       direction: 'vertical'
-      // Other options
     }"
     class="mobile-landing"
   >
     <div class="c-landing__header">
       <nuxt-link to="/profile">
-        Profile
+        <AnimatedLink class="c-bezier">
+          Profile
+        </AnimatedLink>
       </nuxt-link>
-      <nuxt-link to="/archive">
-        Archive
+      <nuxt-link to="/gallery">
+        <AnimatedLink class="c-bezier">
+          Gallery
+        </AnimatedLink>
+      </nuxt-link>
+      <nuxt-link to="/menu">
+        <AnimatedLink class="c-bezier">
+          Menu
+        </AnimatedLink>
       </nuxt-link>
     </div>
     <div class="c-landing__mobile">
       <div class="c-intro">
         <div class="c-intro__image c-name__image ov-h">
-          <img
-            src="https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1620697813/Korty/image_20_bufuoi.jpg"
-            alt=""
+          <div 
             class="inner"
-          />
+            style="background-image: url('/images/munachi/PHOTO-2025-11-16-20-41-59.jpg')"
+          ></div>
         </div>
 
         <div class="c-intro__details">
           <h1 class="details-title span-overflow" style="margin-bottom: 12px;">
             <span class="ov-inner">
-              korty_eo
+munchi
             </span>
           </h1>
           <p class="details-jd span-overflow">
             <span class="ov-inner">
-              FILMAKER & <br />
-              YOUTUBER
+              PERSONAL CHEF & <br />
+              CULINARY ARTIST
             </span>
           </p>
         </div>
@@ -44,8 +51,7 @@
         <div class="c-desc">
           <p class="span-overflow">
             <span class="ov-inner">
-              Based in Lagos, Nigeria. Korty runs a youtube channel where she
-              posts -
+              Creating exceptional culinary experiences with a focus on quality ingredients and innovative flavors.
             </span>
           </p>
         </div>
@@ -57,16 +63,15 @@
           >
             <h2 class="c-job__title align-right ml-auto">
               <span
-                >VL<span class="fraunces">O</span>GS
-                <span class="fraunces">+</span></span
+                >CUL<span class="fraunces">I</span>NARY</span
               >
               <br />
-              INTERVIEWS
+              <span class="fraunces">JOURNEY</span>
             </h2>
           </a>
           <div class="c-job__video">
             <video
-              src="https://res.cloudinary.com/dmwfd0zhh/video/upload/q_auto,f_auto/v1620859386/Korty/YT_n9yqbh.mp4"
+              src="https://res.cloudinary.com/dnf1unqkp/video/upload/v1763468507/IMG_0996_q9lzfh.mp4"
               class="hover-reveal__video mobile"
               autoplay
               preload="auto"
@@ -80,14 +85,13 @@
         <div class="c-job">
           <div class="c-job__title max">
             <a href="https://www.instagram.com/korty_eo/">
-              <span>VIDE<span class="fraunces">O</span> </span>
+              <span>AB<span class="fraunces">O</span>UT</span>
               <br />
               <span class="align-right bottom-text">
-                <div>MASHUPS</div>
+                <div><span class="fraunces">ME</span></div>
                 <div class="title-desc ml-auto">
                   <p>
-                    these mostly go on instagram to her 23k plus audience. 🔥
-                    edits, we highly recommend.
+                    these showcase my culinary journey and creations. Follow for daily food inspiration and recipes.
                   </p>
                 </div>
               </span>
@@ -95,7 +99,7 @@
           </div>
           <div class="c-job__video">
             <video
-              src="https://res.cloudinary.com/dmwfd0zhh/video/upload/q_auto,f_auto/v1622155232/Korty/IG_rwtt50.mp4"
+              src="https://res.cloudinary.com/dnf1unqkp/video/upload/v1763468509/IMG_0999_z1rb1y.mp4"
               class="hover-reveal__video mobile"
               autoplay
               preload="auto"
@@ -108,20 +112,21 @@
 
         <div class="c-job">
           <h2 class="c-job__title align-right">
-            <a href="https://www.instagram.com/korty_eo/">
-              <span>M<span class="fraunces">O</span>DELLING</span>
-            </a>
+            <nuxt-link to="/archive">
+              <span>MY <span class="fraunces">A</span>RCHIVE</span>
+            </nuxt-link>
           </h2>
           <div class="c-job__desc">
             <div class="desc-image">
               <img
-                src="https://res.cloudinary.com/dmwfd0zhh/image/upload/v1620911437/Korty/Rectangle_11_n0ujrc.jpg"
-                alt=""
+                src="https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340447/PHOTO-2025-11-16-20-41-59_ehdnck.jpg"
+                alt="Munchi - Personal Chef & Culinary Artist"
+                style="width: 100%; height: 100%; object-fit: cover;"
               />
             </div>
             <div class="desc-text">
               <p>
-                She has walked for top fashion houses accross West Africa
+                Specializing in creating memorable dining experiences with a personal touch
               </p>
             </div>
           </div>
@@ -130,7 +135,7 @@
       <div>
         <nuxt-link class="c-circular-link" to="/profile">
           <circular-link label="profile-1">
-            View Korty's Profile
+            View Munchi's Profile
           </circular-link>
         </nuxt-link>
       </div>

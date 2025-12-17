@@ -6,9 +6,14 @@
           Profile
         </AnimatedLink>
       </nuxt-link>
-      <nuxt-link to="/archive">
+      <nuxt-link to="/gallery">
         <AnimatedLink class="c-bezier">
-          Archive
+          Gallery
+        </AnimatedLink>
+      </nuxt-link>
+      <nuxt-link to="/menu">
+        <AnimatedLink class="c-bezier">
+          Menu
         </AnimatedLink>
       </nuxt-link>
     </div>
@@ -16,21 +21,21 @@
       <div class="hero-content">
         <div class="hero-image">
           <div class="image-mask"></div>
-          <div class="c-image"></div>
+          <div class="c-image" style="background-image: url('https://res.cloudinary.com/dnf1unqkp/image/upload/v1763472276/PHOTO-2025-11-16-20-41-56_mk8yv4-removebg-preview_cp5ryy.png'); background-size: cover; background-position: center;"></div>
         </div>
         <div class="c-name__image">
-          <div class="inner" />
+          <div class="inner" style="background-image: url('https://res.cloudinary.com/dnf1unqkp/image/upload/v1763472453/PHOTO-2025-11-16-20-41-59_tafemr-removebg-preview_yyyjep.png'); background-size: cover; background-position: center;"></div>
         </div>
         <div class="c-name__details">
           <h1 class="details-title span-overflow">
             <span class="ov-inner">
-              korty_eo
+munchi
             </span>
           </h1>
           <p class="details-jd span-overflow">
             <span class="ov-inner">
-              FILMAKER & <br />
-              YOUTUBER
+              PERSONAL CHEF & <br />
+              CULINARY ARTIST
             </span>
           </p>
         </div>
@@ -48,24 +53,23 @@
           <div class="span-overflow">
             <div class="ov-inner">
               <p>
-                Based in Lagos, Nigeria. Korty runs a youtube channel where she
-                posts -
+                Based in the United Kingdom. Munchi creates exceptional culinary experiences with a focus on -
               </p>
             </div>
           </div>
           <div>
             <hover-link
-              label="VLOGS + INTERVIEWS"
-              assetUrl="https://res.cloudinary.com/dmwfd0zhh/video/upload/q_auto,f_auto/v1620859386/Korty/YT_n9yqbh.mp4"
+              label="CULINARY JOURNEY"
+              assetUrl="https://res.cloudinary.com/dnf1unqkp/video/upload/v1763468507/IMG_0996_q9lzfh.mp4"
               href="https://www.youtube.com/channel/UCTFFhYhkLkxjhcCdwUKmQ5g"
             >
               <sup class="c-hoverlink__super">01</sup>
               <div class="link-overflow">
                 <span class="ov-inner">
                   <AnimatedLink>
-                    VL<span class="fraunces">O</span>GS
-                    <span class="fraunces">+</span> INTERVIEWS
-                  </AnimatedLink>
+                    CUL<span class="fraunces">I</span>NARY
+                    <span class="fraunces">JOURNEY</span>
+                  </AnimatedLink> 
                 </span>
               </div>
             </hover-link>
@@ -75,15 +79,16 @@
         <div class="c-hoverlink hover-link-2">
           <div>
             <hover-link
-              label="Video Mashups"
-              assetUrl="https://res.cloudinary.com/dmwfd0zhh/video/upload/q_auto,f_auto/v1622155232/Korty/IG_rwtt50.mp4"
+              label="ABOUT ME"
+              assetUrl="https://res.cloudinary.com/dnf1unqkp/video/upload/v1763468509/IMG_0999_z1rb1y.mp4"
               href="https://www.instagram.com/korty_eo/"
             >
               <sup class="c-hoverlink__super">02</sup>
               <div class="link-overflow">
                 <span class="ov-inner">
                   <AnimatedLink>
-                    VIDE<span class="fraunces">O</span> MASHUPS
+                    AB<span class="fraunces">O</span>UT
+                    <span class="fraunces">ME</span>
                   </AnimatedLink>
                 </span>
               </div>
@@ -92,8 +97,7 @@
           <div class="span-overflow">
             <span class="ov-inner">
               <p>
-                these mostly go on instagram to her 23k plus audience. 🔥 edits,
-                we highly recommend.
+                these showcase my culinary journey and creations. Follow for daily food inspiration and recipes.
               </p>
             </span>
           </div>
@@ -103,28 +107,29 @@
             <div class="span-overflow">
               <span class="ov-inner">
                 <p>
-                  She has walked for top fashion houses accross West Africa
+                  Specializing in creating memorable dining experiences with a personal touch
                 </p>
               </span>
             </div>
             <div class="c-image c-model__image ov-h">
               <img
-                  src="https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1620865175/Korty/Rectangle_11_tuj1nt.jpg"
-                alt=""
+                  src="https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340447/PHOTO-2025-11-16-20-41-59_ehdnck.jpg"
+                  alt="Munchi - Personal Chef & Culinary Artist"
+                  style="width: 100%; height: 100%; object-fit: cover;"
               />
             </div>
           </div>
           <div>
             <hover-link
-              label="Modelling"
-              assetUrl="https://res.cloudinary.com/dmwfd0zhh/video/upload/q_auto,f_auto/v1622155206/Korty/YT_model_wpxhbg.mp4"
-              href="https://www.instagram.com/korty_eo/"
+              label="MY ARCHIVE"
+              assetUrl="https://res.cloudinary.com/dnf1unqkp/video/upload/v1763468532/IMG_1006_t2xwbg.mp4"
+              :href="'/archive'"
             >
               <sup class="c-hoverlink__super">03</sup>
               <div class="link-overflow">
                 <span class="ov-inner">
                   <AnimatedLink>
-                    M<span class="fraunces">O</span>DELLING
+                    MY <span class="fraunces">A</span>RCHIVE
                   </AnimatedLink>
                 </span>
               </div>
@@ -133,7 +138,7 @@
         </div>
         <nuxt-link class="c-circular-link" to="/profile">
           <circular-link>
-            View Korty's Profile
+            View Munchi's Profile
           </circular-link>
         </nuxt-link>
       </div>
