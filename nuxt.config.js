@@ -20,8 +20,7 @@ export default {
       {
         property: 'og:image',
         hid: 'og:image',
-        content:
-          '/images/munachi-og.jpg',
+        content: '/images/munachi-og.jpg',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],

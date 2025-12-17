@@ -1,15 +1,15 @@
-@import "base/variables";
+@import 'base/variables';
 
-@import "mixins/breakpoints";
-@import "mixins/layout";
-@import "mixins/fonts";
+@import 'mixins/breakpoints';
+@import 'mixins/layout';
+@import 'mixins/fonts';
 
-@import "base/globals";
-@import "base/fonts";
+@import 'base/globals';
+@import 'base/fonts';
 
-@import "pages/home";
-@import "pages/profile";
-@import "pages/archive";
+@import 'pages/home';
+@import 'pages/profile';
+@import 'pages/archive';
 
-@import "components/modal";
-@import "components/preloader";
+@import 'components/modal';
+@import 'components/preloader';

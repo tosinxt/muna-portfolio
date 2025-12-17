@@ -3,7 +3,7 @@
   .desktop-landing {
     padding: 48px 52px;
     display: none;
-    @include media(">tablet") {
+    @include media('>tablet') {
       height: 100vh;
       max-height: 100vh;
       overflow: hidden;
@@ -15,7 +15,7 @@
 
   .mobile-landing {
     padding-bottom: 30px;
-    @include media(">tablet") {
+    @include media('>tablet') {
       display: none;
     }
 
@@ -40,7 +40,7 @@
     height: 100%;
     padding: 16px 0;
 
-    @include media(">tablet") {
+    @include media('>tablet') {
       display: grid;
     }
 
@@ -68,7 +68,7 @@
         }
 
         .c-image {
-          background: url("https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1620697813/Korty/image_2_gijibv.jpg");
+          background: url('https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1620697813/Korty/image_2_gijibv.jpg');
           background-position: 50% 50%;
           background-size: cover;
         }
@@ -100,7 +100,7 @@
             padding-bottom: 100%;
             border-radius: 50%;
             overflow: hidden;
-            background: url("https://res.cloudinary.com/dajnn3jbw/image/upload/v1696250623/korty/ogvtssmubthiot9me58j.jpg");
+            background: url('https://res.cloudinary.com/dajnn3jbw/image/upload/v1696250623/korty/ogvtssmubthiot9me58j.jpg');
             background-size: cover;
             background-position: 50% 50%;
           }
@@ -131,11 +131,11 @@
           line-height: 1.1;
         }
 
-        @include media(">1200px") {
+        @include media('>1200px') {
           @include variableFonts(35, 68);
         }
 
-        @include media(">1300px") {
+        @include media('>1300px') {
           @include variableFonts(36, 74);
         }
 
@@ -159,7 +159,7 @@
             margin-right: 40px;
             margin-top: 10px;
           }
-          @include media(">1200px") {
+          @include media('>1200px') {
             max-width: calc(10.3 / 11 * 100%);
           }
         }
@@ -209,7 +209,7 @@
         width: 100%;
         max-width: 50%;
 
-        @include media(">phone") {
+        @include media('>phone') {
           max-width: 43%;
         }
         .details-title {
@@ -225,7 +225,7 @@
         max-width: 40%;
         margin-right: 20px;
 
-        @include media(">phone") {
+        @include media('>phone') {
           max-width: 45%;
         }
 
@@ -246,7 +246,7 @@
         max-width: 50%;
         @include paragraph;
 
-        @include media(">phone") {
+        @include media('>phone') {
           max-width: 43%;
         }
 
@@ -307,7 +307,7 @@
             max-width: 45%;
             width: 100%;
 
-            @include media(">phone") {
+            @include media('>phone') {
               max-width: 43%;
             }
           }

@@ -43,7 +43,7 @@
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
 <style lang="scss" scoped>
@@ -78,7 +78,7 @@ export default {};
   transform-origin: center;
   textPath {
     font-size: 24px;
-    font-family: "Grotesk";
+    font-family: 'Grotesk';
     text-transform: uppercase;
     letter-spacing: 15.5px;
     fill: #000000;

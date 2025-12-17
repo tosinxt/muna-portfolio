@@ -20,20 +20,20 @@
 </template>
 
 <script>
-import HoverVideo from "~/animations/hoverVideo";
+import HoverVideo from '~/animations/hoverVideo'
 export default {
   props: {
     label: String,
     assetUrl: String,
     href: String,
-    index: String
+    index: String,
   },
 
   mounted() {
-    const hoverRef = this.$refs.hoverLink;
-    new HoverVideo(hoverRef);
-  }
-};
+    const hoverRef = this.$refs.hoverLink
+    new HoverVideo(hoverRef)
+  },
+}
 </script>
 
 <style scoped></style>

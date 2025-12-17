@@ -23,7 +23,7 @@
       max-width: 340px;
       height: 380px;
 
-      @include media(">phone") {
+      @include media('>phone') {
         max-width: 382px;
         height: 490px;
       }
@@ -65,20 +65,20 @@
           }
         }
 
-                .image-1 {
-                  background-image: url("https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340460/PHOTO-2025-11-16-20-41-59_urrw6j.jpg");
-                  background-size: cover;
-                  background-position: 50% 50%;
-                  z-index: 1;
-                  bottom: 0;
-                  top: unset;
-                }
-        
-                .image-2 {
-                  background-image: url("https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340447/PHOTO-2025-11-16-20-41-59_ehdnck.jpg");
-                  background-size: cover;
-                  background-position: 50% 50%;
-                }
+        .image-1 {
+          background-image: url('https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340460/PHOTO-2025-11-16-20-41-59_urrw6j.jpg');
+          background-size: cover;
+          background-position: 50% 50%;
+          z-index: 1;
+          bottom: 0;
+          top: unset;
+        }
+
+        .image-2 {
+          background-image: url('https://res.cloudinary.com/dnf1unqkp/image/upload/v1763340447/PHOTO-2025-11-16-20-41-59_ehdnck.jpg');
+          background-size: cover;
+          background-position: 50% 50%;
+        }
       }
     }
 
@@ -101,7 +101,7 @@
         position: absolute;
         left: 9px;
 
-        @include media(">tablet") {
+        @include media('>tablet') {
           left: 5px;
         }
       }
@@ -136,7 +136,7 @@
     left: 32px;
     bottom: 32px;
 
-    @include media(">phone") {
+    @include media('>phone') {
       left: 64px;
       bottom: 105px;
     }

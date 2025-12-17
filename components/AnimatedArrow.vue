@@ -56,9 +56,9 @@
 <script>
 export default {
   props: {
-    href: String
-  }
-};
+    href: String,
+  },
+}
 </script>
 
 <style lang="scss" scoped>

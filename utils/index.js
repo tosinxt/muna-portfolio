@@ -30,4 +30,19 @@ const preloadImage = (src) =>
     image.src = src
   })
 
-export { map, lerp, clamp, getMousePos, preloadImage }
+// Cloudinary Auto Optimization
+const optimizeCloudinaryImage = (url, width = null) => {
+  if (!url || !url.includes('cloudinary.com')) return url
+  // Check if already optimized/transformed
+  if (url.includes('f_auto') || url.includes('q_auto')) return url
+
+  const params = ['f_auto', 'q_auto']
+  if (width) params.push(`w_${width}`)
+
+  const paramsString = params.join(',') + '/'
+
+  // Insert params after /upload/
+  return url.replace('/upload/', `/upload/${paramsString}`)
+}
+
+export { map, lerp, clamp, getMousePos, preloadImage, optimizeCloudinaryImage }

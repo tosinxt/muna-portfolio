@@ -2,7 +2,7 @@
   padding-left: 24px;
   padding-right: 24px;
 
-  @include media(">tablet") {
+  @include media('>tablet') {
     padding-left: 48px;
     padding-right: 48px;
   }
@@ -12,7 +12,7 @@
   @include paragraph;
   display: none;
 
-  @include media(">tablet") {
+  @include media('>tablet') {
     display: block;
   }
 
@@ -26,7 +26,7 @@
   padding-top: 24px;
   overflow: hidden !important;
 
-  @include media(">tablet") {
+  @include media('>tablet') {
     padding-top: 48px;
   }
 
@@ -40,7 +40,7 @@
     position: relative;
     z-index: 2;
 
-    @include media(">tablet") {
+    @include media('>tablet') {
       margin-bottom: 24px;
     }
   }
@@ -49,7 +49,7 @@
     width: 100%;
     display: grid;
     height: 82vh;
-    @include media(">tablet") {
+    @include media('>tablet') {
       @include padding;
     }
 
@@ -82,13 +82,22 @@
         text-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add subtle shadow for better visibility */
         text-align: center;
         transform: translateY(0);
-        margin-top: calc(33% - 9cm); /* Moved 4cm higher from previous position */
-        @include media(">tablet") {
-          margin-top: calc(23% - 7.5cm); /* Slightly less offset on larger screens */
+        margin-top: calc(
+          33% - 9cm
+        ); /* Moved 4cm higher from previous position */
+        @include media('>tablet') {
+          margin-top: calc(
+            23% - 7.5cm
+          ); /* Slightly less offset on larger screens */
         }
-        
+
         .fraunces {
-          color: rgba(255, 255, 255, 0.8); /* Slightly transparent white for the serif parts */
+          color: rgba(
+            255,
+            255,
+            255,
+            0.8
+          ); /* Slightly transparent white for the serif parts */
         }
       }
 
@@ -97,19 +106,29 @@
         p {
           @include paragraph;
           line-height: 1.7;
-          color: rgba(255, 255, 255, 0.9); /* Light text for better visibility */
+          color: rgba(
+            255,
+            255,
+            255,
+            0.9
+          ); /* Light text for better visibility */
           text-shadow: 0 0 8px rgba(0, 0, 0, 0.5); /* Add shadow for better contrast */
-          
+
           &:not(:first-of-type) {
-            color: rgba(255, 255, 255, 0.7); /* Slightly lighter for non-primary text */
+            color: rgba(
+              255,
+              255,
+              255,
+              0.7
+            ); /* Slightly lighter for non-primary text */
           }
-          
+
           &:first-of-type {
             font-weight: 500; /* Make the first line slightly bolder */
           }
         }
 
-        @include media(">tablet") {
+        @include media('>tablet') {
           display: block;
           position: absolute;
           bottom: 36px;
@@ -123,7 +142,7 @@
     margin-bottom: 40px;
     overflow: hidden;
 
-    @include media(">phone") {
+    @include media('>phone') {
       margin-bottom: 80px;
     }
 
@@ -136,7 +155,7 @@
       // justify-content: space-between;
       width: 300%;
 
-      @include media(">phone") {
+      @include media('>phone') {
         width: 200%;
       }
 
@@ -159,7 +178,7 @@
     @include padding;
     margin-bottom: 100px;
 
-    @include media(">tablet") {
+    @include media('>tablet') {
       @include flex(space-between);
       padding: 0 60px;
     }
@@ -172,7 +191,7 @@
           height: 100%;
         }
 
-        @include media(">tablet") {
+        @include media('>tablet') {
           max-width: 550px;
           height: 550px;
           margin-right: 40px;
@@ -186,12 +205,12 @@
 
       &__text {
         width: 100%;
-        @include media(">tablet") {
+        @include media('>tablet') {
           max-width: 460px;
         }
 
         .inner {
-          @include media(">tablet") {
+          @include media('>tablet') {
             max-width: 340px;
           }
         }
@@ -201,7 +220,7 @@
           margin-top: 16px;
           margin-bottom: 24px;
 
-          @include media(">tablet") {
+          @include media('>tablet') {
             margin-bottom: 40px;
             margin-top: 0;
             max-width: 300px;
@@ -214,7 +233,7 @@
 
         .para-1 {
           margin-bottom: 24px;
-          @include media(">tablet") {
+          @include media('>tablet') {
             margin-bottom: 90px;
           }
         }
@@ -226,7 +245,7 @@
     padding-top: 0;
     padding-bottom: 50px;
 
-    @include media(">tablet") {
+    @include media('>tablet') {
       padding-top: 100px;
       padding-bottom: 100px;
     }
@@ -235,15 +254,15 @@
       &__image {
         height: 300px;
         width: 100%;
-        background: url("https://res.cloudinary.com/dnf1unqkp/image/upload/v1763475474/PHOTO-2025-11-18-10-36-34_mqtniz.jpg");
+        background: url('https://res.cloudinary.com/dnf1unqkp/image/upload/v1763475474/PHOTO-2025-11-18-10-36-34_mqtniz.jpg');
         background-size: cover;
         background-position: 80% 20%;
 
-        @include media(">phone") {
+        @include media('>phone') {
           height: 400px;
         }
 
-        @include media(">tablet") {
+        @include media('>tablet') {
           padding: 36px 220px;
           height: 540px;
           background-position: 50% 20%;
@@ -265,7 +284,7 @@
         margin: 0 auto;
         @include padding;
 
-        @include media(">tablet") {
+        @include media('>tablet') {
           @include flex(space-between);
           padding: 0 60px;
         }
@@ -276,7 +295,7 @@
         }
 
         .left {
-          @include media(">tablet") {
+          @include media('>tablet') {
             max-width: 640px;
             width: 100%;
             margin-right: 50px;
@@ -288,7 +307,7 @@
         }
 
         .right {
-          @include media(">tablet") {
+          @include media('>tablet') {
             max-width: 345px;
             width: 100%;
           }
@@ -297,14 +316,14 @@
         &.first {
           margin-top: 50px;
           margin-bottom: 48px;
-          @include media(">tablet") {
+          @include media('>tablet') {
             margin-top: 120px;
             margin-bottom: 120px;
           }
 
           .left {
             margin-bottom: 48px;
-            @include media(">tablet") {
+            @include media('>tablet') {
               max-width: 640px;
               width: 100%;
               margin-right: 50px;
@@ -324,7 +343,7 @@
           .left {
             margin-bottom: 48px;
             p {
-              @include media(">tablet") {
+              @include media('>tablet') {
                 max-width: 345px;
                 margin-left: auto;
                 margin-bottom: 0;
@@ -339,7 +358,7 @@
               margin-left: auto;
               margin-right: 80px;
 
-              @include media(">tablet") {
+              @include media('>tablet') {
                 max-width: 120px;
                 max-height: 120px;
                 margin-left: unset;
@@ -355,7 +374,7 @@
     &--desktop {
       display: none;
 
-      @include media(">tablet") {
+      @include media('>tablet') {
         display: flex;
         height: 100%;
         width: 100%;
@@ -787,7 +806,7 @@
               max-width: 200px;
               margin-left: 36px;
 
-              @include media(">1000px") {
+              @include media('>1000px') {
                 max-width: 250px;
               }
             }
@@ -799,7 +818,7 @@
             line-height: 102%;
             // text-align: center;
 
-            @include media(">1000px") {
+            @include media('>1000px') {
               letter-spacing: -9px;
               @include variableFonts(50, 126);
             }
@@ -843,7 +862,7 @@
         > div {
           width: 100%;
           padding-bottom: 100%;
-          background: url("https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1621690413/Korty/korty-work_ukm6yk.jpg");
+          background: url('https://res.cloudinary.com/dmwfd0zhh/image/upload/q_auto,f_auto/v1621690413/Korty/korty-work_ukm6yk.jpg');
           background-size: cover;
           border-radius: 50%;
         }
@@ -895,7 +914,7 @@
           }
           font-size: 60px;
 
-          @include media(">400px") {
+          @include media('>400px') {
             font-size: 70px;
           }
         }
@@ -912,7 +931,7 @@
     @include padding;
     padding-bottom: 60px;
 
-    @include media(">tablet") {
+    @include media('>tablet') {
       height: 100vh;
       padding: 0 24px;
       padding-bottom: 60px;
@@ -920,7 +939,7 @@
       @include flex($align: flex-end);
     }
 
-    @include media(">1000px") {
+    @include media('>1000px') {
       padding: 0 48px;
       padding-bottom: 60px;
     }
@@ -960,7 +979,7 @@
         margin-right: 20px;
         flex-shrink: 0.5;
 
-        @include media(">tablet") {
+        @include media('>tablet') {
           transform: translateX(30px);
         }
         h1 {
@@ -971,24 +990,24 @@
             font-style: italic;
           }
 
-          @include media(">tablet") {
+          @include media('>tablet') {
             text-align: center;
             @include variableFonts(40, 120);
           }
 
-          @include media(">=1500px") {
+          @include media('>=1500px') {
             max-width: unset;
           }
         }
 
         .c-bottom {
-          @include media(">tablet") {
+          @include media('>tablet') {
             max-width: 670px;
             margin: 0 auto;
             @include flex(space-between);
           }
 
-          @include media(">1200px") {
+          @include media('>1200px') {
             transform: translateX(-20px);
           }
 
@@ -999,7 +1018,7 @@
                 max-width: 380px;
                 margin-bottom: 32px;
 
-                @include media(">tablet") {
+                @include media('>tablet') {
                   max-width: 340px;
                 }
               }
@@ -1031,7 +1050,7 @@
                 max-width: 300px;
                 margin-left: auto;
 
-                @include media(">tablet") {
+                @include media('>tablet') {
                   max-width: 220px;
                   margin-left: unset;
                 }
@@ -1042,7 +1061,7 @@
                 margin-top: 40px;
                 width: 120px;
                 height: 120px;
-                @include media(">tablet") {
+                @include media('>tablet') {
                   display: none;
                 }
               }
@@ -1059,7 +1078,7 @@
           text-align: center;
         }
 
-        @include media(">tablet") {
+        @include media('>tablet') {
           min-width: 250px;
           max-width: 400px;
           width: 100%;
@@ -1068,7 +1087,7 @@
           margin: unset;
         }
 
-        @include media(">1000px") {
+        @include media('>1000px') {
           min-width: 300px;
         }
 
@@ -1081,7 +1100,7 @@
     }
     .inner-con {
       width: 100%;
-      @include media(">tablet") {
+      @include media('>tablet') {
         @include flex(space-between, flex-end);
       }
     }

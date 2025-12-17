@@ -1,11 +1,9 @@
 <template>
-  <div>
-    Logo
-  </div>
+  <div>Logo</div>
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
 <style lang="scss" scoped></style>

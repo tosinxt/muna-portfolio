@@ -4,8 +4,8 @@ body {
   background: $col-cream;
   font-weight: 400;
   color: $col-black;
-  font-family: "Grotesk", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Grotesk', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   // cursor: none;
   line-height: 1.6;
@@ -25,7 +25,7 @@ a {
 }
 
 button,
-[role="button"] {
+[role='button'] {
   cursor: pointer;
 }
 
@@ -95,12 +95,12 @@ p {
   object-fit: cover;
   object-position: 50% 50%;
 
-  @include media("<=tablet") {
+  @include media('<=tablet') {
     display: none;
   }
 
   &.mobile {
-    @include media("<=tablet") {
+    @include media('<=tablet') {
       display: block;
     }
   }
@@ -111,19 +111,19 @@ p {
 }
 
 .show-mobile {
-  @include media(">phone") {
+  @include media('>phone') {
     display: none;
   }
 }
 
 .show-tablet {
-  @include media(">tablet") {
+  @include media('>tablet') {
     display: none;
   }
 }
 
 .show-desktop {
-  @include media("<=tablet") {
+  @include media('<=tablet') {
     display: none;
   }
 }
@@ -206,7 +206,7 @@ p {
     pointer-events: none;
     z-index: 15;
 
-    @include media("<=tablet") {
+    @include media('<=tablet') {
       display: none;
     }
   }

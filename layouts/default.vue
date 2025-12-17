@@ -10,34 +10,32 @@
 </template>
 
 <script>
-import gsap from "gsap/all";
-import { mapState } from "vuex";
-import Modal from "../components/Modal/Modal.vue";
-import Preloader from "../components/Preloader.vue";
-import Exit from "../components/Exit.vue";
+import gsap from 'gsap/all'
+import { mapState } from 'vuex'
+import Modal from '../components/Modal/Modal.vue'
+import Preloader from '../components/Preloader.vue'
+import Exit from '../components/Exit.vue'
 export default {
   components: { Modal, Preloader, Exit },
   computed: {
-    ...mapState(["modalOpen", "imagesLoaded"])
+    ...mapState(['modalOpen', 'imagesLoaded']),
   },
 
   methods: {
     leave(el, done) {
       const timeline = gsap.timeline({
-        onComplete: done
-      });
+        onComplete: done,
+      })
       timeline.to(el, {
         opacity: 0,
         duration: 1,
-        ease: "power2.out"
-      });
-    }
-  }
+        ease: 'power2.out',
+      })
+    },
+  },
 
   // this.$store.commit("updateModal", true);
-};
+}
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
